@@ -104,4 +104,66 @@ img{
     &__social{
         margin-right: 20px;
     }
+    &__title{
+        background-color: $white-color;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 7px 0px 7px;
+    }
+    &__logo{
+        margin-right: 38px;
+    }
+    &__text::after{
+        content: '';
+        border: solid #999999;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        margin-right: 26px;          
+    }
+    &__text{
+        color: #999999;
+    }
+    &__search{
+        background-image: url(../imgs/search.png);        
+        background-size: auto;
+        background-position: 12px 50%;
+        border: none;
+        background-repeat: no-repeat;
+        padding: 0px 10px 0px 40px;    
+        border-radius: 3px;
+        margin-right: 153px;
+    }
+    &__heart{
+        border: none;        
+    }    
+    &__heart::after{
+        content: "|";
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    &__heart::before{
+        content: "|";
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+    &__name::after{
+        content: '';
+        border: solid $primary-text-color;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        margin-left: 4px;
+
+    }
+
+
+    
+       
+    
+   
 }

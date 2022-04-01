@@ -16,10 +16,21 @@ html(lang="en")
                     p.header__posht Hello@colorlib.com 
                     p.header__price Free Shipping for all order of $99
                     img(src="./assets/imgs/facesbook.png", alt="facesbook").header__social
-                    img(src="./assets/imgs/watsapp.png", alt="watsapp").header__social 
+                    img(src="./assets/imgs/watsapp.png", alt="watsapp").header__social
                     img(src="./assets/imgs/linkedin.png", alt="linkedin").header__social
                     img(src="./assets/imgs/twitter.png", alt="twitter").header__social
-        include ./components/slider.pug     
+            .header__title
+                img(src="./assets/imgs/logo.png", alt="logo").header__logo
+                img(src="./assets/imgs/gurugram.png", alt="gurugram").header__gurugram
+                p.header__text Gurugram                
+                input(type="text" placeholder="Search for products...").header__search
+                img(src="./assets/imgs/phone.png", alt="phone").header__hone
+                p.header__number 1800-000-000
+                button.header__heart
+                    img(src="./assets/imgs/heart2.png", alt="heart")
+                img(src="./assets/imgs/icon.png", alt="icon").header__icon
+                p.header__name John Doe
+        include ./components/slider.pug
         .conteiner
            include ./components/categories.pug
            include ./components/products.pug
