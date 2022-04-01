@@ -9,8 +9,17 @@ html(lang="en")
         link(rel="stylesheet", href="./assets/css/app.css")
         link(rel="stylesheet", href="./assets/fonts/cerebri-sans-pro.css")
     body
-            
-        include ./components/slider.pug      
+        .header
+            .header__info
+                .header__email
+                    img(src="./assets/imgs/email.png", alt="email").header__img
+                    p.header__posht Hello@colorlib.com 
+                    p.header__price Free Shipping for all order of $99
+                    img(src="./assets/imgs/facesbook.png", alt="facesbook").header__social
+                    img(src="./assets/imgs/watsapp.png", alt="watsapp").header__social 
+                    img(src="./assets/imgs/linkedin.png", alt="linkedin").header__social
+                    img(src="./assets/imgs/twitter.png", alt="twitter").header__social
+        include ./components/slider.pug     
         .conteiner
            include ./components/categories.pug
            include ./components/products.pug
