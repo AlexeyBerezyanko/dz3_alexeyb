@@ -1,0 +1,46 @@
+include ../mixins/newproducts-block.pug
+
+h2.subtitle
+    span For you
+    | Added New Products
+section.newproducts
+    +newproducts-block({
+        sale:'15%Off',
+        img:'./assets/imgs/newproduct1.png',
+        available:'Available(in stock)',
+        title:'Ginger',
+        price:'$12',
+        noprice:'$15'      
+    })
+    +newproducts-block({
+        sale:'15%Off',
+        img:'./assets/imgs/newproduct2.png',
+        available:'Available(in stock)',
+        title:'Two fresh figs',
+        price:'$12',
+        noprice:'$15'    
+    })
+    +newproducts-block({
+        sale:'15%Off',
+        img:'./assets/imgs/newproduct3.png',
+        available:'Available(in stock)',
+        title:'Strawberry',
+        price:'$12',
+        noprice:'$15'       
+    })
+    +newproducts-block({
+        sale:'15%Off',
+        img:'./assets/imgs/newproduct4.png',
+        available:'Available(in stock)',
+        title:'Egglant',
+        price:'$12',
+        noprice:'$15'    
+    })
+    +newproducts-block({
+        sale:'15%Off',
+        img:'./assets/imgs/newproduct5.png',
+        available:'Available(in stock)',
+        title:'Egg',
+        price:'$12',
+        noprice:'$15'    
+    })

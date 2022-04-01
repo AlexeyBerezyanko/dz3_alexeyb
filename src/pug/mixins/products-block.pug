@@ -1,0 +1,18 @@
+mixin products-block(args={})
+    .products-block
+        span.products-block__sale=args.sale
+        button.products-block__like
+            img(src="./assets/imgs/heart.png", alt="like")
+        img(src=args.img, alt="products").products-block__img
+        .products-block__text
+            p.products-block__available=args.available
+            h3.products-block__title=args.title
+            span.products-block__price=args.price
+            span.products-block__noprice=args.noprice
+        .products-block__add
+            button.products-block__btn -
+            p.products-block__namber 1
+            button.products-block__btn +
+            a(href="#").products-block__link
+                img(src='./assets/imgs/bag.png', alt="bag").products-block__bag 
+

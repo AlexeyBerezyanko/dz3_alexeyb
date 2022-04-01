@@ -1,0 +1,46 @@
+include ../mixins/products-block.pug
+
+h2.subtitle
+    span For You
+    | Top Featured Products
+section.products
+    +products-block({
+        sale:'15%Off',
+        img:'./assets/imgs/products1.png',
+        available:'Available(in stock)',
+        title:'Fresh organic apricot',
+        price:'$12',
+        noprice:'$15'
+    })
+    +products-block({
+        sale:'15%Off',
+        img:'./assets/imgs/products2.png',
+        available:'Available(in stock)',
+        title:'Cocumber',
+        price:'$12',
+        noprice:'$15'  
+    })
+    +products-block({
+        sale:'15%Off',
+        img:'./assets/imgs/products3.png',
+        available:'Available(in stock)',
+        title:'Hazelnuts filbert nut',
+        price:'$12',
+        noprice:'$15'
+    })
+    +products-block({
+        sale:'15%Off',
+        img:'./assets/imgs/products4.png',
+        available:'Available(in stock)',
+        title:'Raw Broccoli',
+        price:'$12',
+        noprice:'$15'   
+    })
+    +products-block({
+        sale:'15%Off',
+        img:'./assets/imgs/products5.png',
+        available:'Available(in stock)',
+        title:'Organic quince',
+        price:'$12',
+        noprice:'$15'   
+    })

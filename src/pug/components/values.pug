@@ -1,0 +1,21 @@
+include ../mixins/values-item.pug
+
+h2.subtitle
+    span Offers
+    | Best Values
+section.values
+    +values-item({
+        img:'./assets/imgs/value1.jpg',
+        title:'Daily Essentials',
+        text:'20 Off Everyday'
+    })
+    +values-item({
+        img:'./assets/imgs/value2.jpg',
+        title:'Get up to',
+        text:'30% OFF'
+    })
+    +values-item({
+        img:'./assets/imgs/value3.jpg',
+        title:'Special Discount',
+        text:'For All Items'    
+    })

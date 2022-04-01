@@ -1,0 +1,73 @@
+@import "./main/reset.scss";
+@import "./main/vars.scss";
+@import "./components/category.scss";
+@import "./components/slider.scss";
+@import "./components/products.scss";
+@import "./components/values.scss";
+@import "./components/fruits.scss";
+@import "./components/newproducts.scss";
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Cerebri Sans Pro';
+    background: #E5E5E5;
+    color: $primary-text-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 121%;
+    font-style: normal;
+}
+img{
+    max-width: 100%;
+}
+.conteiner{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.subtitle{
+    font-family: 'Cerebri Sans Pro';
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;    
+    align-items: center;
+    margin-bottom: 30px;
+
+    span{
+    display: flex;    
+    color: $primary-color;
+    }
+}
+.cashback{
+    background-image: url(../imgs/cashback.jpg);
+    height: auto;
+    background-size: cover;    
+    background-position: center;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+}
+.cashback__title{
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+    color: $white-color;
+    margin-bottom: 23px;
+}
+.cashback__code{
+    background: rgba(127, 173, 57, 0.7);    
+    border: 2px dashed $white-color;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 34px;
+    text-transform: uppercase;
+    padding: 12px 10px;
+    color: $white-color;
+}
